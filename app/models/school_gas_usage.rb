@@ -1,0 +1,2 @@
+class SchoolGasUsage < ApplicationRecord
+end
