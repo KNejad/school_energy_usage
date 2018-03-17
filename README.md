@@ -1,24 +1,10 @@
-# README
+# School Energy Usage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails project for the 2018 Dundee Data Jam.
 
-Things you may want to cover:
+Gets data about [energy consumption of schools](https://data.dundeecity.gov.uk/dataset/energy-consumption-of-schools) and visualises it using Google Maps
 
-* Ruby version
+# Setup
+  * Setup the database with: `rails db:create db:migrate`
+  * Then import the data with: `rails import:school_gas_usage`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
